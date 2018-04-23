@@ -270,13 +270,8 @@ textarea {
 
 #deleteBtn {
   position: absolute;
-  width: 36px;
-  height: 36px;
-  background: url('../static/img/delete-btn.svg');
-  background-size: 36px 36px;
   top: 23px;
-  right: 74px;
-  outline: none;
+  right: 150px;
 }
 
 .detail-name {
@@ -390,4 +385,17 @@ textarea {
   width: 100px;
   text-align: center;
   left: 370px;
+}
+
+@media (max-width: 600px) {
+  #addressbook-app {
+    width: 550px;
+    height: 728px;
+  }
+  .contact-email-item {
+    right: 7px;
+  }
+  .contact-phone-item {
+    display: none;
+  }
 }
